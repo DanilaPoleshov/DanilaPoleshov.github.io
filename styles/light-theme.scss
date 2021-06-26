@@ -7,6 +7,14 @@ $sky: #39a9e1;
 $darkSky: #2980d1;
 $maxWidth: 1440;
 
+* {
+    cursor: default;
+}
+
+a {
+    cursor: pointer;
+}
+
 @keyframes hidePreloader {
   0% {
     opacity: 1;
@@ -136,17 +144,19 @@ body {
 
   &__main-btn {
     padding-top: 120px;
+    cursor: pointer;
   }
 
   &__btn {
+    cursor: pointer;
     text-decoration: none;
-    &__span {
+    &__play {
+        cursor: pointer;
       z-index: 2;
       position: relative;
     }
     position: relative;
     &::before {
-      border-radius: 10px;
       content: "";
       position: absolute;
       bottom: 0;
