@@ -1,11 +1,3 @@
-* {
-  cursor: default;
-}
-
-a {
-  cursor: pointer;
-}
-
 @keyframes hidePreloader {
   0% {
     opacity: 1;
@@ -52,6 +44,9 @@ body {
   flex-grow: 0;
 }
 
+.header {
+  cursor: default;
+}
 .header-logo {
   max-width: 100%;
 }
@@ -115,10 +110,8 @@ body {
 }
 .vimeworld__main-btn {
   padding-top: 120px;
-  cursor: pointer;
 }
 .vimeworld__btn {
-  cursor: pointer;
   text-decoration: none;
   position: relative;
   cursor: pointer;
@@ -179,6 +172,7 @@ body {
 }
 
 .mainInfo {
+  cursor: default;
   background-image: url("../img/back-mainInfo.png");
   font-weight: 600;
   font-size: calc( 14px + 10 * ((100vw - 320px) / 1120) );
@@ -220,6 +214,7 @@ body {
 }
 
 .mg {
+  cursor: default;
   background-image: url("../img/background_mg.png");
 }
 .mg-monitor-container {
@@ -321,6 +316,9 @@ body {
   padding-right: 0;
 }
 
+.modal {
+  cursor: default;
+}
 .modal-content {
   border-radius: 10px;
 }
