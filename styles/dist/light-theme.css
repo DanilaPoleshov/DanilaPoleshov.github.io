@@ -221,7 +221,7 @@ body {
   height: 450px;
   overflow: auto;
   border-radius: 10px;
-  box-shadow: -1px 8px 15px 1px rgba(0, 0, 0, 0.29);
+  box-shadow: 0px -1px 28px 31px rgba(34, 60, 80, 0.2);
   background-image: url("../img/back-mainInfo.png");
 }
 .mg-monitor-container::-webkit-scrollbar {
