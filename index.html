@@ -15,6 +15,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="styles/mediaRequests.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <title>VimeWorld</title>
 </head>
 
@@ -25,13 +26,13 @@
 
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-          <a class="navbar-brand" href="#"><img src="img/header-logo.png" class='header-logo' alt=""></a>
+          <a class="navbar-brand" href="#"><img src="img/header-logo.png" class='header-logo animate__lightSpeedInLeft animate__animated wow' alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse animate__lightSpeedInRight animate__animated wow" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
             </ul>
@@ -65,8 +66,8 @@
       </nav>
 
 
-      <ul class="nav justify-content-center second-navbar">
-        <li class="nav-item">
+      <ul class="nav justify-content-center second-navbar " data-wow-duration='1.5s'>
+        <li class="nav-item animate__fadeIn animate__animated wow">
           <a class="nav-link dropdown-toggle second-navbar-link" href="#" id="navbarDropdown" role="button"
             data-bs-toggle="dropdown" aria-expanded="false">
             О серверах
@@ -84,13 +85,13 @@
         </li>
       </ul>
       </li>
-      <li class="nav-item">
+      <li class="nav-item animate__fadeIn animate__animated wow">
         <a class="nav-link second-navbar-link" href="#">Новости</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item animate__fadeIn animate__animated wow">
         <a class="nav-link second-navbar-link" href="#">Наш Discord</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item animate__fadeIn animate__animated wow">
         <a class="nav-link second-navbar-link" href="#">Форум</a>
       </li>
       </ul>
@@ -138,7 +139,7 @@
 
       <div class="vimeworld">
         <div class="vimeworld__blur">
-          <div class="vimeworld__main-info">
+          <div class="vimeworld__main-info animate__fadeIn animate__animated wow" data-wow-duration='1.5s'>
             <div class="vimeworld__main-info__logo">
 
             </div>
@@ -148,7 +149,7 @@
 
           </div>
 
-          <div class="vimeworld__main-btn">
+          <div class="vimeworld__main-btn animate__fadeIn animate__animated wow">
             <a class="vimeworld__btn" href="#">
               <span class="vimeworld__btn__play">Начать играть</span>
             </a>
@@ -160,11 +161,11 @@
 
     <section class="mainInfo">
       <div class="container">
-        <div class="mainInfo__heading">
+        <div class="mainInfo__heading wow animate__animated animate__fadeInUp">
           <h1 class="mainInfo__heading__txt">Добро пожаловать на VimeWorld!</h1>
         </div>
 
-        <div class="mainInfo__info">
+        <div class="mainInfo__info animate__animated animate__fadeInLeft wow">
           Здесь собраны лучшие сервера Minecraft с модами и без, на которых может играть каждый. Наша команда следит за
           порядком на серверах и каждый день добавляет новые возможности.
           На наших MiniGames установлена уникальная система персонализации игрока: можно установить себе шляпу, крылья,
@@ -172,13 +173,13 @@
         </div>
 
         <div class="mainInfo__contain">
-          <div class="mainInfo__contain__txt">
+          <div class="mainInfo__contain__txt animate__animated animate__fadeInLeft wow">
             Тут будет какая-то инфа про ролик справа.
             На видео Вы можете посмотреть историю создания нашего сервера,
             как он развивался и стал лучшим СНГ проектом.
 
           </div>
-          <div class="mainInfo__contain__video">
+          <div class="mainInfo__contain__video animate__animated animate__fadeInRight wow">
             <img src="img/preview.png" class="mainInfo__contain__video__player" alt="">
             <!-- <iframe class="mainInfo__contain__video__player" src="https://www.youtube.com/embed/LaGBFwis594" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
           </div>
@@ -189,10 +190,10 @@
 
     <section class="mg">
       <div class="container">
-        <div class="mainInfo__heading">
+        <div class="mainInfo__heading animate__animated animate__slideInUp wow">
           <h1 class="mainInfo__heading__txt">Главный сервер: MiniGames</h1>
           <div class="mg__wrap">
-            <div class="mg__wrapIcons">
+            <div class="mg__wrapIcons animate__animated animate__fadeInBottomLeft wow">
 
               <div class="mg__icon f-row" data-bs-toggle="modal" data-bs-target="#ann">
                 <img src="img/ann.png" alt="" class="mg__icon__img hello" data-bs-toggle="tooltip"
@@ -251,7 +252,7 @@
                   title="DeathRun">
               </div>
             </div>
-            <div class="mg-monitor">
+            <div class="mg-monitor animate__animated animate__fadeInBottomRight wow">
 
               <div class="container mg-monitor-container">
                 <div class="mg-monitor-heading">Мониторинг</div>
@@ -259,11 +260,11 @@
                   <div class="mg-monitor-info">
                     <div class="mg-monitor-info-serv">
                       <div class="mg-monitor-info-name">MiniGames</div>
-                      <div class="mg-monitor-info-online">4539/5000</div>
+                      <div class="mg-monitor-info-online"><span class="monitor-mg"></span>/<span class="max-online-mg">6000</span></div>
                     </div>
                   </div>
                   <div class="mg-monitor-progress-wrap">
-                    <div class="mg-monitor-progress">
+                    <div class="mg-monitor-progress progress-mg">
 
                     </div>
                   </div>
@@ -384,7 +385,7 @@
 
   </div>
 
-  <div class="modal fade" id="ann" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal" id="ann" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -396,8 +397,8 @@
           <div class="modal-header modal-heading modal-header-upper">
             <h3 class="modal-title" id="exampleModalLabel">Цель игры</h3>
           </div>
-          Вы должны разрушить все вражеские базы. Под башней в каждом углу карты есть подвал, где находится "Ядро" базы
-          Ендер камень, которое нужно сломать киркой.<br />
+          Вы должны разрушить все вражеские базы. Под башней в каждом углу карты есть подвал, где находится «ядро» базы
+          (эндер камень), которое нужно сломать киркой.<br />
           После разрушения базы игроки из той команды не смогут больше возрождаться.
           <div class="modal-header modal-heading">
             <h3 class="modal-title" id="exampleModalLabel">Команды</h3>
@@ -414,7 +415,8 @@
           <div class="modal-header modal-heading modal-header-upper">
             <h3 class="modal-title" id="exampleModalLabel">Внутриигровой магазин</h3>
           </div>
-          Он доступен по нажатию на Око Эндера или по команде <span class="highLight">/shop</span>. При старте оно появляется у вас в последнем слоте
+          Он доступен по нажатию на Око Эндера или по команде <span class="highLight">/shop</span>. При старте оно
+          появляется у вас в последнем слоте
           на панели. В нём можно купить разные ценности, которые будут доступны только на протяжении вашей жизни, после
           смерти купленные вещи выпадают.<br />
           Деньги для покупки в магазине можно получить следующими способами: <br />
@@ -430,19 +432,25 @@
           Вся игра делится на 6 фаз: <br /><br />
           <div class="modal-body-info">
             <b>1 Фаза</b>
-            <div class="modal-body-info"><img src="img/square.png" alt="square" />Все игроки телепортируются по своим базам и начинают развиваться.</div>
+            <div class="modal-body-info"><img src="img/square.png" alt="square" />Все игроки телепортируются по своим
+              базам и начинают развиваться.</div>
             <b>2 Фаза</b>
-            <div class="modal-body-info"><img src="img/square.png" alt="square" />Базу (эндер камень) теперь можно бить. За каждый удар разрушение блока
+            <div class="modal-body-info"><img src="img/square.png" alt="square" />Базу (эндер камень) теперь можно бить.
+              За каждый удар разрушение блока
               снимается одна прочность базы.</div>
             <b>3 Фаза</b>
-            <div class="modal-body-info"><img src="img/square.png" alt="square" />В центре карты появляется алмазная руда. Все на мид! Но не забывайте защищать
+            <div class="modal-body-info"><img src="img/square.png" alt="square" />В центре карты появляется алмазная
+              руда. Все на мид! Но не забывайте защищать
               свою базу.</div>
             <b>4 Фаза</b>
-            <div class="modal-body-info"><img src="img/square.png" alt="square" />Ничего не происходит, играем, добываем алмазы, ломаем чужие базы.</div>
+            <div class="modal-body-info"><img src="img/square.png" alt="square" />Ничего не происходит, играем, добываем
+              алмазы, ломаем чужие базы.</div>
             <b>5 Фаза</b>
-            <div class="modal-body-info"><img src="img/square.png" alt="square" />За удар по базе теперь снимается 2 еденицы прочности базы.</div>
+            <div class="modal-body-info"><img src="img/square.png" alt="square" />За удар по базе теперь снимается 2
+              еденицы прочности базы.</div>
             <b>6 Фаза</b>
-            <div class="modal-body-info"><img src="img/square.png" alt="square" />База начинает постепенно разрушаться.</div>
+            <div class="modal-body-info"><img src="img/square.png" alt="square" />База начинает постепенно разрушаться.
+            </div>
           </div>
           <div class="modal-header modal-heading modal-header-upper">
             <h3 class="modal-title" id="exampleModalLabel">Чат</h3>
@@ -457,7 +465,8 @@
           </div>
           Можно сделать батут: <br />
           <div class="modal-body-info">
-            <img src="img/square.png" alt="square" />Для этого на блок угля нужно поставить каменную нажимную плиту. Когда вы наступите на нажимную плиту то вас
+            <img src="img/square.png" alt="square" />Для этого на блок угля нужно поставить каменную нажимную плиту.
+            Когда вы наступите на нажимную плиту то вас
             бросит вперёд (сила почти такая же как и у прыжка акробата)
           </div>
           <div class="modal-header modal-heading modal-header-upper">
@@ -469,10 +478,11 @@
           </div>
           <div class="modal-body-info">
             <img src="img/square.png" alt="square" />Полоска сытости не убывает <br />
-            <img src="img/square.png" alt="square" />Возможность открыть верстак в любом месте <span class="highLight">/wb</span><br />
+            <img src="img/square.png" alt="square" />Возможность открыть верстак в любом месте <span
+              class="highLight">/wb</span><br />
             <img src="img/square.png" alt="square" />Становятся доступными роли: Воин, Дровосек <br />
             <img src="img/square.png" alt="square" />Заход в переполненную команду <br />
-            <img src="img/square.png" alt="square" />Дополнительный слот в ендер сундуке
+            <img src="img/square.png" alt="square" />Дополнительный слот в эндер сундуке
           </div>
           <div class="modal-header modal-heading modal-header-upper">
             <h3 class="modal-title modal-title-small" id="exampleModalLabel">Статус <span class="premium">Premium</span>
@@ -480,25 +490,31 @@
           </div>
           <div class="modal-body-info">
             <img src="img/square.png" alt="square" />Полоска сытости не убывает <br />
-            <img src="img/square.png" alt="square" />Возможность открыть верстак в любом месте <span class="highLight">/wb</span><br />
-            <img src="img/square.png" alt="square" />Возможность открыть ендер печку в любом месте <span class="highLight">/fur</span><br />
+            <img src="img/square.png" alt="square" />Возможность открыть верстак в любом месте <span
+              class="highLight">/wb</span><br />
+            <img src="img/square.png" alt="square" />Возможность открыть эндер печку в любом месте <span
+              class="highLight">/fur</span><br />
             <img src="img/square.png" alt="square" />Становятся доступными роли: Лучник, Шахтёр, Копатель <br />
             <img src="img/square.png" alt="square" />Смена команды во время игры <br />
             <img src="img/square.png" alt="square" />Заход в переполненную команду <br />
-            <img src="img/square.png" alt="square" />2 дополнительных слота в ендер сундуке <br />
+            <img src="img/square.png" alt="square" />2 дополнительных слота в эндер сундуке <br />
           </div>
           <div class="modal-header modal-heading modal-header-upper">
             <h3 class="modal-title modal-title-small" id="exampleModalLabel">Статус <span class="holy">Holy</span></h3>
           </div>
           <div class="modal-body-info">
             <img src="img/square.png" alt="square" />Полоска сытости не убывает <br />
-            <img src="img/square.png" alt="square" />Возможность открыть верстак в любом месте <span class="highLight">/wb</span><br />
-            <img src="img/square.png" alt="square" />Возможность открыть ендер печку в любом месте <span class="highLight">/fur</span> <br />
-            <img src="img/square.png" alt="square" />Возможность открыть стол зачарования в любом месте <span class="highLight">/et</span><br />
-            <img src="img/square.png" alt="square" />Становятся доступными роли: Воин, Дровосек, Лучник, Шахтёр, Копатель <br />
+            <img src="img/square.png" alt="square" />Возможность открыть верстак в любом месте <span
+              class="highLight">/wb</span><br />
+            <img src="img/square.png" alt="square" />Возможность открыть эндер печку в любом месте <span
+              class="highLight">/fur</span> <br />
+            <img src="img/square.png" alt="square" />Возможность открыть стол зачарования в любом месте <span
+              class="highLight">/et</span><br />
+            <img src="img/square.png" alt="square" />Становятся доступными роли: Воин, Дровосек, Лучник, Шахтёр,
+            Копатель <br />
             <img src="img/square.png" alt="square" />Заход в переполненную команду <br />
             <img src="img/square.png" alt="square" />Смена команды во время игры <br />
-            <img src="img/square.png" alt="square" />3 дополнительных слота в ендер сундуке <br />
+            <img src="img/square.png" alt="square" />3 дополнительных слота в эндер сундуке <br />
           </div>
         </div>
         <div class="modal-footer">
@@ -575,12 +591,16 @@
           В начале игры, каждый игрок появляется на своём острове, где по стандарту есть 3 сундука с базовыми вещами.
           Остров наполовину состоит из руд, дроп которых изменён: <br /><br />
           <div class="modal-body-info">
-            <img src="img/square.png" alt="square" />Золотая руда: дроп аналогичен вещам в начальных сундуках. Может попасться крипер<br />
-            <img src="img/square.png" alt="square" />Железная руда: алмазы, железо, стрелы, палки, кремень, перья и т.д.<br />
-            <img src="img/square.png" alt="square" />Лазуритовая руда: накладывает на вас случайный эффект от зелья.<br />
+            <img src="img/square.png" alt="square" />Золотая руда: дроп аналогичен вещам в начальных сундуках. Может
+            попасться крипер<br />
+            <img src="img/square.png" alt="square" />Железная руда: алмазы, железо, стрелы, палки, кремень, перья и
+            т.д.<br />
+            <img src="img/square.png" alt="square" />Лазуритовая руда: накладывает на вас случайный эффект от
+            зелья.<br />
             <img src="img/square.png" alt="square" />Алмазная руда: случайная алмазная вещь.<br />
             <img src="img/square.png" alt="square" />Изумрудная руда: добавляет 1 или 2 уровня.<br />
-            <img src="img/square.png" alt="square" />Руда красного камня: увеличивает или уменьшает максимальное здоровье на 1 сердечко.
+            <img src="img/square.png" alt="square" />Руда красного камня: увеличивает или уменьшает максимальное
+            здоровье на 1 сердечко.
           </div><br />
           Между вашим островом и центром есть еще один маленький островок с обычным сундуком. Иногда там могут лежать
           полезные вещи. <br />
@@ -640,13 +660,20 @@
           </div>
           На данный момент в игре есть 7 микропрокачек:
           <div class="modal-body-info modal-body-info-mw">
-            <img src="img/square.png" alt="square" />Шанс нанести критический удар. Максимальная прокачка <span class="highLight">10%</span><br />
-            <img src="img/square.png" alt="square" />Увеличение шанса выпадения бонусов. Максимальная прокачка <span class="highLight">130%</span><br />
-            <img src="img/square.png" alt="square" />Улучшение скорости бега. Максимальная прокачка <span class="highLight">25%</span><br />
-            <img src="img/square.png" alt="square" />Шанс моментально возродиться. Максимальная прокачка <span class="highLight">10%</span><br />
-            <img src="img/square.png" alt="square" />Уменьшение времени возрождения. Максимальная прокачка <span class="highLight">3 сек.</span><br />
-            <img src="img/square.png" alt="square" />Шанс откидывания моба при ударе. Максимальная прокачка <span class="highLight">20%</span><br />
-            <img src="img/square.png" alt="square" />Шанс вернуть мобу 50% урона. Максимальная прокачка <span class="highLight">10%</span><br />
+            <img src="img/square.png" alt="square" />Шанс нанести критический удар. Максимальная прокачка <span
+              class="highLight">10%</span><br />
+            <img src="img/square.png" alt="square" />Увеличение шанса выпадения бонусов. Максимальная прокачка <span
+              class="highLight">130%</span><br />
+            <img src="img/square.png" alt="square" />Улучшение скорости бега. Максимальная прокачка <span
+              class="highLight">25%</span><br />
+            <img src="img/square.png" alt="square" />Шанс моментально возродиться. Максимальная прокачка <span
+              class="highLight">10%</span><br />
+            <img src="img/square.png" alt="square" />Уменьшение времени возрождения. Максимальная прокачка <span
+              class="highLight">3 сек.</span><br />
+            <img src="img/square.png" alt="square" />Шанс откидывания моба при ударе. Максимальная прокачка <span
+              class="highLight">20%</span><br />
+            <img src="img/square.png" alt="square" />Шанс вернуть мобу 50% урона. Максимальная прокачка <span
+              class="highLight">10%</span><br />
           </div>
         </div>
         <div class="modal-footer">
@@ -770,6 +797,8 @@
     <img src="img/loading.gif" alt="" />
   </div>
 
+  <script src="/scripts/wow.min.js"></script>
+  <script>new WOW().init();</script>
   <script src="scripts/preloader.js"></script>
   <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
   <script src="scripts/changeImages.js"></script>
@@ -777,6 +806,7 @@
     integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
   </script>
   <script src="scripts/preview.js"></script>
+  <script src="/scripts/getOnline.js"></script>
 </body>
 
 </html>
