@@ -251,8 +251,24 @@ body {
 }
 
 .mg {
+    padding-bottom: 20px;
     cursor: default;
     background-image: url("../img/background_mg.png");
+    &-task {
+      max-width: 37.5rem;
+      color: #fff;
+      &-header {
+        border-left: 8px solid $dark;
+        padding-left: 0.625rem;
+      }
+      &-body {
+        font-weight: 400;
+        padding-left: 2.5rem;
+      }
+    }
+    &-heading {
+      color: #fff;
+    }
     &-monitor {
     &-container {
       height: 450px;
@@ -347,6 +363,72 @@ body {
     }
   }
 }
+
+
+
+.team {
+  background-image: url('../img/back-mainInfo.png');
+  padding-bottom: 6rem;
+  &-heading {
+    padding-bottom: 2.5rem;
+  }
+  &-wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 3.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 7px rgba(0, 0, 0, 0.29);
+
+  }
+  &-main {
+    display: flex;
+    padding-top: 4rem;
+    &:first-child {
+      padding-top: 0;
+    }
+    &-wrap {
+      padding-left: 25px;
+    }
+    &-head {
+      margin-top: -1rem;
+      &-img {
+        max-width: 7.5rem;
+      }
+    }
+    &-nick {
+      font-weight: 800;
+      font-size: 22px;
+    }
+    &-place {
+      font-weight: 600;
+    }
+    &-info {
+      font-weight: 500;
+      padding-top: 25px;
+    }
+
+  }
+}
+
+.head {
+  &-xtrafrancyz {
+    filter: drop-shadow(0 0 1.25rem #259bd9);
+  }
+  &-lucy {
+    filter: drop-shadow(0 0 1.25rem #381146);
+  }
+  &-okssi {
+    filter: drop-shadow(0 0 1.25rem #dfe280);
+  }
+  &-lexant {
+    filter: drop-shadow(0 0 1.25rem #e27a84);
+  }
+  &-rsboe {
+    filter: drop-shadow(0 0 1.25rem #141414);
+  }
+}
+
 
 .highLight {
   background-color: $dark;

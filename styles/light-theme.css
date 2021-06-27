@@ -275,8 +275,28 @@ body {
 }
 
 .mg {
+  padding-bottom: 20px;
   cursor: default;
   background-image: url("../img/background_mg.png");
+}
+
+.mg-task {
+  max-width: 37.5rem;
+  color: #fff;
+}
+
+.mg-task-header {
+  border-left: 8px solid #373737;
+  padding-left: 0.625rem;
+}
+
+.mg-task-body {
+  font-weight: 400;
+  padding-left: 2.5rem;
+}
+
+.mg-heading {
+  color: #fff;
 }
 
 .mg-monitor-container {
@@ -396,6 +416,87 @@ body {
 .mg__icon__img:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+.team {
+  background-image: url("../img/back-mainInfo.png");
+  padding-bottom: 6rem;
+}
+
+.team-heading {
+  padding-bottom: 2.5rem;
+}
+
+.team-wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 3.5rem;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 15px 7px rgba(0, 0, 0, 0.29);
+          box-shadow: 0 0 15px 7px rgba(0, 0, 0, 0.29);
+}
+
+.team-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 4rem;
+}
+
+.team-main:first-child {
+  padding-top: 0;
+}
+
+.team-main-wrap {
+  padding-left: 25px;
+}
+
+.team-main-head {
+  margin-top: -1rem;
+}
+
+.team-main-head-img {
+  max-width: 7.5rem;
+}
+
+.team-main-nick {
+  font-weight: 800;
+  font-size: 22px;
+}
+
+.team-main-place {
+  font-weight: 600;
+}
+
+.team-main-info {
+  font-weight: 500;
+  padding-top: 25px;
+}
+
+.head-xtrafrancyz {
+  -webkit-filter: drop-shadow(0 0 1.25rem #259bd9);
+          filter: drop-shadow(0 0 1.25rem #259bd9);
+}
+
+.head-lucy {
+  -webkit-filter: drop-shadow(0 0 1.25rem #381146);
+          filter: drop-shadow(0 0 1.25rem #381146);
+}
+
+.head-okssi {
+  -webkit-filter: drop-shadow(0 0 1.25rem #dfe280);
+          filter: drop-shadow(0 0 1.25rem #dfe280);
+}
+
+.head-lexant {
+  -webkit-filter: drop-shadow(0 0 1.25rem #e27a84);
+          filter: drop-shadow(0 0 1.25rem #e27a84);
+}
+
+.head-rsboe {
+  -webkit-filter: drop-shadow(0 0 1.25rem #141414);
+          filter: drop-shadow(0 0 1.25rem #141414);
 }
 
 .highLight {
