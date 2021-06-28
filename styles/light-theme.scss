@@ -307,9 +307,14 @@ body {
       }
     }
     &-heading {
-      padding: 20px 40px;
+      padding: 20px 40px 0;
       font-weight: 700;
       font-size: 25px;
+      &-small {
+        padding: 0 0 20px 0;
+        font-size: 14px;
+        font-weight: 500;
+      }
     }
     &-info {
       &-serv {
@@ -319,9 +324,9 @@ body {
       }
     }
     &-progress {
+      
       width: 80%;
       height: 10px;
-      // border-radius: 10px;
       background: linear-gradient($sky, $darkSky);
       &-wrap {
         overflow: hidden;

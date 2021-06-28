@@ -270,9 +270,14 @@ body {
   padding-bottom: 30px;
 }
 .mg-monitor-heading {
-  padding: 20px 40px;
+  padding: 20px 40px 0;
   font-weight: 700;
   font-size: 25px;
+}
+.mg-monitor-heading-small {
+  padding: 0 0 20px 0;
+  font-size: 14px;
+  font-weight: 500;
 }
 .mg-monitor-info-serv {
   display: flex;

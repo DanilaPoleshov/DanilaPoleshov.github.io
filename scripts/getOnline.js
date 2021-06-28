@@ -32,8 +32,6 @@ function maxOnlineMG(arg) {
     .then((data) => {
       let totalOnline = document.querySelector(".monitor-mg").innerHTML = data["total"];
       let maxOnline = maxOnlineMG(totalOnline)
-      console.log(totalOnline);
-      console.log(maxOnline);
       document.querySelector('.progress-mg').style.width = Number(totalOnline / maxOnline * 100) + '%'
     });
   setTimeout(getOnline, 11000);
