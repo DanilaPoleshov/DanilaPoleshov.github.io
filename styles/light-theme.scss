@@ -256,6 +256,7 @@ body {
     background-image: url("../img/background_mg.png");
     &-task {
       max-width: 37.5rem;
+      padding-bottom: 0.7rem;
       color: #fff;
       &-header {
         border-left: 8px solid $dark;
@@ -276,7 +277,7 @@ body {
       // display: flex;
       // justify-content: space-between;
       border-radius: 10px;
-      box-shadow: 0px -1px 28px 31px rgba(34, 60, 80, 0.2);
+      box-shadow: 0 0 15px 7px rgba(0, 0, 0, 0.29);
     //   box-shadow: -1px 8px 15px 1px rgba(0, 0, 0, 0.29);
       background-image: url("../img/back-mainInfo.png");
 
@@ -320,9 +321,10 @@ body {
     &-progress {
       width: 80%;
       height: 10px;
-      border-radius: 10px;
+      // border-radius: 10px;
       background: linear-gradient($sky, $darkSky);
       &-wrap {
+        overflow: hidden;
         box-shadow: -1px 8px 15px 1px rgba(0, 0, 0, 0.29);
         width: 100%;
         height: 10px;
@@ -429,6 +431,15 @@ body {
   }
 }
 
+.admin {
+  color: #00bebe;
+}
+.moder {
+  color: #1b00ff;
+}
+.builder {
+  color: #009c00;
+}
 
 .highLight {
   background-color: $dark;
