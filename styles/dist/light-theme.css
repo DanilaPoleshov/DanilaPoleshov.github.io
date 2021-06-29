@@ -387,18 +387,6 @@ body {
   filter: drop-shadow(0 0 1.25rem #141414);
 }
 
-.admin {
-  color: #00bebe;
-}
-
-.moder {
-  color: #1b00ff;
-}
-
-.builder {
-  color: #009c00;
-}
-
 .highLight {
   background-color: #373737;
   color: #fff;
@@ -465,6 +453,18 @@ body {
 .modal-title-img {
   max-width: 30px;
   margin-left: 7px;
+}
+
+.admin {
+  color: #00bebe;
+}
+
+.moder {
+  color: #1b00ff;
+}
+
+.builder {
+  color: #009c00;
 }
 
 .vip {

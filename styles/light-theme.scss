@@ -67,7 +67,7 @@ body {
 }
 
 .header {
-    cursor: default;
+  cursor: default;
   &-logo {
     max-width: 100%;
   }
@@ -146,7 +146,7 @@ body {
   &__btn {
     text-decoration: none;
     &__play {
-        cursor: pointer;
+      cursor: pointer;
       z-index: 2;
       position: relative;
     }
@@ -207,7 +207,7 @@ body {
 }
 
 .mainInfo {
-    cursor: default;
+  cursor: default;
   background-image: url("../img/back-mainInfo.png");
   font-weight: 600;
   @include font(24, 14);
@@ -251,26 +251,26 @@ body {
 }
 
 .mg {
-    padding-bottom: 20px;
-    cursor: default;
-    background-image: url("../img/background_mg.png");
-    &-task {
-      max-width: 37.5rem;
-      padding-bottom: 0.7rem;
-      color: #fff;
-      &-header {
-        border-left: 8px solid $dark;
-        padding-left: 0.625rem;
-      }
-      &-body {
-        font-weight: 400;
-        padding-left: 2.5rem;
-      }
+  padding-bottom: 20px;
+  cursor: default;
+  background-image: url("../img/background_mg.png");
+  &-task {
+    max-width: 37.5rem;
+    padding-bottom: 0.7rem;
+    color: #fff;
+    &-header {
+      border-left: 8px solid $dark;
+      padding-left: 0.625rem;
     }
-    &-heading {
-      color: #fff;
+    &-body {
+      font-weight: 400;
+      padding-left: 2.5rem;
     }
-    &-monitor {
+  }
+  &-heading {
+    color: #fff;
+  }
+  &-monitor {
     &-container {
       height: 450px;
       overflow: auto;
@@ -278,7 +278,7 @@ body {
       // justify-content: space-between;
       border-radius: 10px;
       box-shadow: 0 0 15px 7px rgba(0, 0, 0, 0.29);
-    //   box-shadow: -1px 8px 15px 1px rgba(0, 0, 0, 0.29);
+      //   box-shadow: -1px 8px 15px 1px rgba(0, 0, 0, 0.29);
       background-image: url("../img/back-mainInfo.png");
 
       &::-webkit-scrollbar {
@@ -324,7 +324,6 @@ body {
       }
     }
     &-progress {
-      
       width: 80%;
       height: 10px;
       background: linear-gradient($sky, $darkSky);
@@ -371,10 +370,8 @@ body {
   }
 }
 
-
-
 .team {
-  background-image: url('../img/back-mainInfo.png');
+  background-image: url("../img/back-mainInfo.png");
   padding-bottom: 6rem;
   &-heading {
     padding-bottom: 2.5rem;
@@ -386,7 +383,6 @@ body {
     padding: 3.5rem;
     border-radius: 10px;
     box-shadow: 0 0 15px 7px rgba(0, 0, 0, 0.29);
-
   }
   &-main {
     display: flex;
@@ -414,7 +410,6 @@ body {
       font-weight: 500;
       padding-top: 25px;
     }
-
   }
 }
 
@@ -436,16 +431,6 @@ body {
   }
 }
 
-.admin {
-  color: #00bebe;
-}
-.moder {
-  color: #1b00ff;
-}
-.builder {
-  color: #009c00;
-}
-
 .highLight {
   background-color: $dark;
   color: #fff;
@@ -461,7 +446,7 @@ body {
 }
 
 .modal {
-    cursor: default;
+  cursor: default;
   &-content {
     border-radius: 10px;
   }
@@ -517,22 +502,28 @@ body {
   }
 }
 
+.admin {
+  color: #00bebe;
+}
+.moder {
+  color: #1b00ff;
+}
+.builder {
+  color: #009c00;
+}
 .vip {
   color: #00be00;
   font-weight: 600;
   text-transform: uppercase;
 }
-
 .premium {
   color: #00dada;
   font-weight: 600;
 }
-
 .holy {
   font-weight: 600;
   color: #ffba2d;
 }
-
 .immortal {
   font-weight: 600;
   color: #e800d5;
